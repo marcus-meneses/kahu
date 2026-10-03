@@ -1,0 +1,80 @@
+.daycard {
+  padding: 10px;
+
+  height: 17vh;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+ 
+
+  transition: all 0.2s;
+}
+
+.daycard:hover {
+  z-index: 1000;
+  padding: 0px;
+
+ 
+  
+  width: 120%;
+  
+  overflow: visible;
+  margin-top: -3%;
+  margin-left: -10%;
+
+  transition: all 0.2s ease;
+}
+
+.innercard {
+  display: block;
+  background-color: #eee;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 110%;
+  height: auto;
+  left: 0;
+  top: 100%;
+  transition: all 0.2s ease;
+  border: 1px solid #ddd;
+
+  width: 100%;
+}
+
+.innercard:hover {
+  transition: all 0.1s ease;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 2px 3px 5px #888;
+}
+
+.dayheader {
+  border: 1px solid #ddd;
+}
+
+.dayheader:hover {
+  border: 1px solid #888;
+}
+
+.addiv {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.addiv:hover {
+  background-color: #eee;
+}
+
+.dayevent {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dayevent:hover {
+  background-color: #eee;
+}

@@ -1,0 +1,52 @@
+{
+  "name": "kahu",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode development --host 0.0.0.0 --port 5173",
+    "build": "tsc -b && vite build --mode production",
+    "lint": "eslint .",
+    "preview": "vite preview --mode production --host 0.0.0.0 --port 4173",
+    "start": "npm run dev",
+    "build:test": "tsc -b && vite build --mode test"
+  },
+  "dependencies": {
+    "@mantine/charts": "^7.15.2",
+    "@mantine/core": "^7.15.2",
+    "@mantine/dates": "^7.15.2",
+    "@mantine/dropzone": "^7.15.2",
+    "@mantine/form": "^7.15.2",
+    "@mantine/hooks": "^7.15.2",
+    "@mantine/modals": "^7.15.2",
+    "@mantine/notifications": "^7.15.2",
+    "@mantine/nprogress": "^7.15.2",
+    "@mantine/spotlight": "^7.15.2",
+    "@types/feather-icons": "^4.29.4",
+    "crypto-js": "^4.2.0",
+    "dayjs": "^1.11.13",
+    "feather-icons-react": "^0.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-loader-spinner": "^6.1.6",
+    "recharts": "^2.15.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "postcss": "^8.4.49",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "react-router-dom": "^7.1.1",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.18.2",
+    "vite": "^6.0.7"
+  }
+}

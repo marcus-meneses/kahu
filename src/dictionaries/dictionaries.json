@@ -1,0 +1,368 @@
+{
+  "dogConditions": [
+    {
+      "index": 1,
+      "name": "Filhote",
+      "description": "Animal em fase de crescimento e socialização, com necessidades próprias de manejo, vacinação e alimentação.",
+      "importance": "green",
+      "references": "VET,SHP,HTL"
+    },
+    {
+      "index": 2,
+      "name": "Sênior",
+      "description": "Animal na fase final estimada da vida, que pode exigir acompanhamento preventivo mais frequente.",
+      "importance": "yellow",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 3,
+      "name": "Gestante ou lactante",
+      "description": "Cadela gestante ou em lactação, com necessidades especiais de manejo, nutrição e atendimento.",
+      "importance": "red",
+      "references": "VET,HTL"
+    },
+    {
+      "index": 4,
+      "name": "Não castrado",
+      "description": "Animal não submetido à esterilização; informação relevante para manejo e planejamento reprodutivo.",
+      "importance": "green",
+      "references": "VET,HTL"
+    },
+    {
+      "index": 5,
+      "name": "Medo ou ansiedade",
+      "description": "Apresenta sinais frequentes de medo, ansiedade ou estresse diante de pessoas, animais ou ambientes.",
+      "importance": "yellow",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 6,
+      "name": "Ansiedade de separação",
+      "description": "Apresenta sofrimento ou comportamento destrutivo quando separado de pessoas de referência.",
+      "importance": "yellow",
+      "references": "VET,HTL"
+    },
+    {
+      "index": 7,
+      "name": "Fobia de ruídos",
+      "description": "Reage intensamente a trovões, fogos, secadores ou outros ruídos fortes.",
+      "importance": "yellow",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 8,
+      "name": "Reatividade",
+      "description": "Apresenta reação intensa a determinados estímulos, como cães, pessoas, veículos ou movimentos.",
+      "importance": "yellow",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 9,
+      "name": "Agressividade",
+      "description": "Possui comportamento agressivo conhecido; requer avaliação prévia e protocolo seguro de manejo.",
+      "importance": "red",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 10,
+      "name": "Histórico de mordida",
+      "description": "Possui episódio conhecido de mordida em pessoa ou animal; exige alerta claro para a equipe.",
+      "importance": "red",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 11,
+      "name": "Proteção de recursos",
+      "description": "Pode reagir ao manejo de comida, brinquedos, espaço ou pessoas de referência.",
+      "importance": "red",
+      "references": "VET,HTL"
+    },
+    {
+      "index": 12,
+      "name": "Risco de fuga",
+      "description": "Possui tendência conhecida a escapar, saltar barreiras ou sair durante abertura de acessos.",
+      "importance": "red",
+      "references": "GRM,HTL"
+    },
+    {
+      "index": 13,
+      "name": "Sensível ao toque",
+      "description": "Demonstra desconforto ou reação ao toque, contenção, escovação ou manipulação corporal.",
+      "importance": "yellow",
+      "references": "VET,GRM"
+    },
+    {
+      "index": 14,
+      "name": "Baixa socialização",
+      "description": "Possui pouca familiaridade com pessoas, animais ou ambientes diferentes.",
+      "importance": "yellow",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 15,
+      "name": "Alergia conhecida",
+      "description": "Possui alergia alimentar, ambiental, medicamentosa ou de contato conhecida.",
+      "importance": "red",
+      "references": "VET,GRM,SHP,HTL"
+    },
+    {
+      "index": 16,
+      "name": "Uso contínuo de medicamento",
+      "description": "Utiliza medicamento de forma contínua; a prescrição vigente deve ser confirmada antes do atendimento.",
+      "importance": "yellow",
+      "references": "VET,HTL"
+    },
+    {
+      "index": 17,
+      "name": "Diabetes",
+      "description": "Possui diagnóstico de diabetes e pode depender de rotina alimentar, monitoramento e medicação.",
+      "importance": "red",
+      "references": "VET,SHP,HTL"
+    },
+    {
+      "index": 18,
+      "name": "Epilepsia ou convulsões",
+      "description": "Possui diagnóstico de epilepsia ou histórico de episódios convulsivos.",
+      "importance": "red",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 19,
+      "name": "Doença cardíaca",
+      "description": "Possui condição cardíaca conhecida, relevante para esforço, estresse, sedação e atendimento.",
+      "importance": "red",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 20,
+      "name": "Doença renal",
+      "description": "Possui condição renal conhecida, com possíveis restrições alimentares, hídricas ou medicamentosas.",
+      "importance": "red",
+      "references": "VET,SHP,HTL"
+    },
+    {
+      "index": 21,
+      "name": "Doença hepática",
+      "description": "Possui condição hepática conhecida, relevante para alimentação, medicamentos e procedimentos.",
+      "importance": "red",
+      "references": "VET,SHP,HTL"
+    },
+    {
+      "index": 22,
+      "name": "Condição respiratória",
+      "description": "Possui dificuldade ou doença respiratória conhecida, exigindo controle de esforço e estresse.",
+      "importance": "red",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 23,
+      "name": "Braquicefálico",
+      "description": "Possui focinho curto e maior predisposição a dificuldade respiratória e intolerância ao calor.",
+      "importance": "yellow",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 24,
+      "name": "Obesidade",
+      "description": "Apresenta excesso importante de peso, com impacto potencial em mobilidade, respiração e saúde geral.",
+      "importance": "yellow",
+      "references": "VET,SHP"
+    },
+    {
+      "index": 25,
+      "name": "Baixo peso",
+      "description": "Apresenta peso ou condição corporal abaixo do esperado e pode necessitar avaliação nutricional.",
+      "importance": "yellow",
+      "references": "VET,SHP"
+    },
+    {
+      "index": 26,
+      "name": "Osteoartrite ou doença articular",
+      "description": "Possui dor, rigidez ou doença articular conhecida, com necessidade de manejo cuidadoso.",
+      "importance": "yellow",
+      "references": "VET,GRM,SHP,HTL"
+    },
+    {
+      "index": 27,
+      "name": "Mobilidade reduzida",
+      "description": "Possui limitação para caminhar, subir, saltar ou permanecer em determinadas posições.",
+      "importance": "yellow",
+      "references": "VET,GRM,SHP,HTL"
+    },
+    {
+      "index": 28,
+      "name": "Dor conhecida",
+      "description": "Apresenta dor ativa ou recorrente; manipulação e contenção devem ser adaptadas.",
+      "importance": "red",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 29,
+      "name": "Deficiência visual",
+      "description": "Possui visão reduzida ou ausente e pode precisar de aproximação e ambiente adaptados.",
+      "importance": "yellow",
+      "references": "GRM,HTL"
+    },
+    {
+      "index": 30,
+      "name": "Deficiência auditiva",
+      "description": "Possui audição reduzida ou ausente e pode precisar de sinais visuais e aproximação cuidadosa.",
+      "importance": "yellow",
+      "references": "GRM,HTL"
+    },
+    {
+      "index": 31,
+      "name": "Doença dentária",
+      "description": "Possui doença periodontal, dor oral ou outra condição dentária conhecida.",
+      "importance": "yellow",
+      "references": "VET,SHP"
+    },
+    {
+      "index": 32,
+      "name": "Condição dermatológica",
+      "description": "Possui problema recorrente ou ativo de pele, pelagem, ouvido ou sensibilidade cutânea.",
+      "importance": "yellow",
+      "references": "VET,GRM,SHP,HTL"
+    },
+    {
+      "index": 33,
+      "name": "Parasitas",
+      "description": "Possui infestação ou infecção parasitária conhecida ou em tratamento.",
+      "importance": "yellow",
+      "references": "VET,GRM,SHP,HTL"
+    },
+    {
+      "index": 34,
+      "name": "Condição infectocontagiosa",
+      "description": "Possui suspeita ou confirmação de condição transmissível; requer protocolo de isolamento e biossegurança.",
+      "importance": "red",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 35,
+      "name": "Imunossuprimido",
+      "description": "Possui imunidade comprometida por doença, tratamento ou condição clínica.",
+      "importance": "red",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 36,
+      "name": "Pós-operatório",
+      "description": "Está em recuperação de procedimento cirúrgico e possui restrições temporárias de manejo ou atividade.",
+      "importance": "red",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 37,
+      "name": "Incontinência",
+      "description": "Possui perda involuntária de urina ou fezes e pode precisar de rotina e higiene adaptadas.",
+      "importance": "yellow",
+      "references": "VET,SHP,HTL"
+    },
+    {
+      "index": 38,
+      "name": "Disfunção cognitiva",
+      "description": "Apresenta alterações cognitivas relacionadas à idade, como desorientação ou mudança de interação e sono.",
+      "importance": "yellow",
+      "references": "VET,HTL"
+    },
+    {
+      "index": 39,
+      "name": "Intolerância ao calor",
+      "description": "Possui risco aumentado em ambientes quentes ou durante esforço e secagem.",
+      "importance": "yellow",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 40,
+      "name": "Vacinação atrasada",
+      "description": "Possui vacinação informada como incompleta ou fora do prazo recomendado.",
+      "importance": "yellow",
+      "references": "VET,HTL"
+    },
+    {
+      "index": 41,
+      "name": "Castrado",
+      "description": "Animal submetido à esterilização; informação útil para manejo, convivência e histórico reprodutivo.",
+      "importance": "green",
+      "references": "VET,HTL"
+    },
+    {
+      "index": 42,
+      "name": "Pelagem longa",
+      "description": "Possui pelagem longa, informação relevante para escovação, secagem e manutenção.",
+      "importance": "green",
+      "references": "GRM,SHP"
+    },
+    {
+      "index": 43,
+      "name": "Pelagem dupla",
+      "description": "Possui pelagem formada por cobertura e subpelo, característica relevante para higiene e secagem.",
+      "importance": "green",
+      "references": "GRM,SHP"
+    },
+    {
+      "index": 44,
+      "name": "Subpelo denso",
+      "description": "Possui subpelo denso, com maior retenção de umidade e necessidade específica de escovação.",
+      "importance": "green",
+      "references": "GRM,SHP"
+    },
+    {
+      "index": 45,
+      "name": "Microchipado",
+      "description": "Possui microchip de identificação implantado.",
+      "importance": "green",
+      "references": "VET,HTL"
+    },
+    {
+      "index": 46,
+      "name": "Sem pelos ou pelagem rarefeita",
+      "description": "Possui ausência natural de pelos ou pelagem rarefeita, característica relevante para proteção da pele.",
+      "importance": "green",
+      "references": "VET,GRM,SHP"
+    },
+    {
+      "index": 47,
+      "name": "Orelhas longas ou pendulares",
+      "description": "Possui orelhas longas ou pendulares, característica relevante durante higiene, secagem e inspeção.",
+      "importance": "green",
+      "references": "VET,GRM,SHP"
+    },
+    {
+      "index": 48,
+      "name": "Cauda curta ou ausente",
+      "description": "Possui cauda naturalmente curta, amputada ou ausente.",
+      "importance": "green",
+      "references": "GRM,HTL"
+    },
+    {
+      "index": 49,
+      "name": "Unhas escuras",
+      "description": "Possui unhas escuras, característica que reduz a visibilidade das estruturas internas durante o corte.",
+      "importance": "green",
+      "references": "GRM"
+    },
+    {
+      "index": 50,
+      "name": "Primeira visita",
+      "description": "Este é o primeiro atendimento registrado do animal no estabelecimento.",
+      "importance": "green",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 51,
+      "name": "Animal de trabalho ou assistência",
+      "description": "Exerce atividade de trabalho, suporte ou assistência e pode possuir rotina ou identificação própria.",
+      "importance": "green",
+      "references": "VET,GRM,HTL"
+    },
+    {
+      "index": 52,
+      "name": "Identificação por tatuagem",
+      "description": "Possui tatuagem utilizada para identificação do animal.",
+      "importance": "green",
+      "references": "VET,HTL"
+    }
+  ]
+}

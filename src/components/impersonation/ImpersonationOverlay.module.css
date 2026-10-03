@@ -1,0 +1,10 @@
+.overlay {
+  opacity: 0.4;
+  transition: opacity 160ms ease;
+  cursor: pointer;
+}
+
+.overlay:hover,
+.overlay:focus-within {
+  opacity: 1;
+}

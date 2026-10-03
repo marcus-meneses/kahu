@@ -1,0 +1,33 @@
+{
+  "name": "Kahu - Gerência pet",
+  "short_name": "Kahu",
+  "description": "Gerência pet Kahu",
+  "start_url": "/home/dash",
+  "scope": "/home/",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "minimal-ui"],
+  "background_color": "#fbfaff",
+  "theme_color": "#4f55a8",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icons/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/037-pet-care.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity", "medical"]
+}

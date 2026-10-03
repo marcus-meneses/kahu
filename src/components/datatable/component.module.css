@@ -1,0 +1,7 @@
+.navlink {
+    background-color: white;
+    min-width: "200px";
+}
+.navlink:hover {
+    background-color: var(--mantine-color-light-1);
+}
